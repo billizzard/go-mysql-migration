@@ -25,7 +25,7 @@ All commands run from folder witch is parent for MIGRATION_PATH folder, in our r
 
 To initialize database use (create migrations table), need run only once:
 ```bash
-migrations init
+migrations init  // if you don't rename binary then "go-mysql-migration init" instead
 ```
 To generate migration template use (file will appear in folder MIGRATION_PATH):
 ```bash
