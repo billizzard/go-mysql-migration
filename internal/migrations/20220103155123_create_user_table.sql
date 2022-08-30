@@ -1,5 +1,7 @@
 -- +migrate Up
 -- MIGRATION EXAMPLE
+START TRANSACTION;
+
 CREATE TABLE user
 (
     id       int auto_increment,
@@ -12,3 +14,5 @@ CREATE TABLE user
 
 CREATE UNIQUE INDEX user_uid_uindex on user (uid);
 CREATE UNIQUE INDEX user_email_uindex on user (email);
+
+COMMIT;
