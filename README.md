@@ -3,8 +3,7 @@ Very simple implementation of migrations using sql files. Transactions are writt
 
 To initialize migrations library:
 ```bash
-go get -d github.com/billizzard/go-mysql-migration
-go install github.com/billizzard/go-mysql-migration
+go install github.com/billizzard/go-mysql-migration@latest
 ```
 If you want, you can rename binary from "go-mysql-migration" file to "migrations"
 ```
